@@ -169,8 +169,8 @@ class ImageFrame(Frame):
     URL_MIME_TYPE: bytes
     URL_MIME_TYPE_STR: str
     URL_MIME_TYPE_VALUES: Incomplete
-    image_data: Incomplete
-    image_url: Incomplete
+    image_data: bytes
+    image_url: str | None
     def __init__(self, id: str =..., description: str = '', image_data: Incomplete | None = None, image_url: Incomplete | None = None, picture_type: Incomplete | None = None, mime_type: Incomplete | None = None) -> None: ...
     @property
     def description(self) -> str: ...
