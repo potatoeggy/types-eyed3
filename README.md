@@ -1,3 +1,3 @@
 # types-eyed3
 
-Type hint for [eyed3](https://github.com/nicfit/eyeD3)
+Type hints for [eyed3](https://github.com/nicfit/eyeD3)
