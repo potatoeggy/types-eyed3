@@ -32,7 +32,7 @@ class Mp3AudioFile(core.AudioFile):
     def __init__(self, path: str | PathLike[str], version: _VersionTuple=...) -> None: ...
     def initTag(self, version: _VersionTuple=...) -> Tag: ... # type: ignore
 
-    @core.AudioFile.tag.getter
+    @property
     def tag(self) -> Tag | None: ...
-    @core.AudioFile.tag.setter
+    @tag.setter
     def tag(self, t: Tag) -> None: ... # type: ignore
